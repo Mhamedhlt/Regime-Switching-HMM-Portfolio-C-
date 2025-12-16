@@ -42,9 +42,8 @@ The strategy is a hybrid implementation: the high-performance core is written in
 ## 📚 Repository Structure
 
 * `Finance_math.pdf`: The complete 42-page research report.
-* `HMM_Core/`: C++ source files (`.cpp`, `.h`) for the Student-t HMM estimation engine.
-* `Python_Backtester/`: Python scripts (`.ipynb`) for data handling, strategy execution, and plotting performance.
-
+* `HMM.cpp`, `HMM.h`, `main.cpp`: C++ source files for the core Student-t HMM estimation engine.
+* `data.ipynb`, `visu.ipynb`, `optim.ipynb`, `stress.ipynb`, `zoom.ipynb`: Python Jupyter Notebooks (`.ipynb`) for data handling, strategy execution, stress testing, and plotting performance.
 ---
 
 ## ⚙️ Technologies Used
